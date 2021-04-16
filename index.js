@@ -34,10 +34,10 @@ const dictionaryDezena = {
   'trinta': 30,
   'quarenta': 40,
   'ciquenta': 50,
-  'sessenta': 60,
-  'setenta': 70,
-  'oitenta': 80,
-  'noventa': 90,
+  'sessenta': 6,
+  'setenta': 7,
+  'oitenta': 8,
+  'noventa': 9,
 } 
 ​
 const dictionaryCentena = {
@@ -60,11 +60,18 @@ const dictionaryMil = {
 let inputNumber = 'dois mil quinhentos e vinte e três reais e dezoito centavos';
 let splitString = split.inputNumber(' ');
 ​let i,milhar = 0;
-
+let valorFinal;
 splitString.map( s => {
   if(s == 'mil')
   {
     unMilhar =  inputNumber;
+
+    for (i=0;i<s.length();i++)
+    {
+        if(s[i] in dictionaryCentena)
+            valorFinal = valorFinal+s[i]
+    }
+    
   }
   
   i = i +1;
