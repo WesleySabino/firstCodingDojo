@@ -29,8 +29,38 @@ const dictionaryDezena = {
   'dezesseis': 16,
   'dezessete': 17,
   'desoito': 18,
-  'dezenove': 19
+  'dezenove': 19,
+  'vinte': 20,
+  'trinta': 30,
+  'quarenta': 40,
+  'ciquenta': 50,
+  'sessenta': 60,
+  'setenta': 70,
+  'oitenta': 80,
+  'noventa': 90,
 } 
+
+const dictionaryCentena = {
+  'cem': 100,
+  'cento': 100,
+  'dozentos': 12,
+  'trezentos': 13,
+  'quatrocentos': 14,
+  'quinhentos': 15,
+  'seissentos': 16,
+  'setessentos': 17,
+  'novessentos': 18,
+  'dezenove': 19,
+  'vinte': 20,
+  'trinta': 30,
+  'quarenta': 40,
+  'ciquenta': 50,
+  'sessenta': 60,
+  'setenta': 70,
+  'oitenta': 80,
+  'noventa': 90,
+} 
+
 
 let inputNumber = 'dois mil quinhentos e vinte e três reais e dezoito centavos';
 let splitString = split.inputNumber(' ');
